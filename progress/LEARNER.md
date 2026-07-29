@@ -15,6 +15,8 @@
 
 If any line above disagrees with the session log at the bottom, the log wins and this block is stale. Fix it, and say in the chat that you did.
 
+The same applies to the mastery line specifically: if it disagrees with [`MASTERY.md`](MASTERY.md), **`MASTERY.md` wins** — it holds the marks and the evidence behind them, and this is a summary of it. So do not quote the mastery line without having opened that file. A summary is worth quoting only while it is true, and the one way this block goes wrong is by being trusted after it has gone stale.
+
 ---
 
 ## For the AI: how to use this file
@@ -33,7 +35,7 @@ Seven rules, all of them hard:
 4. **Write facts, not encouragement.** "Ran three scouts, forgot the NOT FOUND field, spotted it themselves on the second try" is useful. "Doing great, really getting it" is not, and it will mislead the next session into pitching too high.
 5. **When you are not sure whether something belongs here**, ask whether a future session would teach differently if it knew. If yes, write it down. If no, leave it out.
 6. **The entry template near the bottom of this file is the only shape a log entry takes.** Other parts of the harness will hand you an entry in a different shape — a skill, a protocol, a worker's report. Map it onto the fields below rather than appending it raw. A log written in five shapes cannot be read at a glance, and the field a shape happens to omit is the one that stops getting captured.
-7. **Update the Current state block at the top in the same pass as the log entry, never later from memory.** Quote your evidence for every line of it rather than asserting it from impression: the date on the newest entry below *Real entries start below this line*, and that entry's `NEXT` line. If there is no dated entry below that marker, the honest reading is that they have never run a session, and the block stays exactly as it shipped. Never state where someone is from how the file looks — most of this file is scaffolding, and scaffolding is evidence of nothing in either direction.
+7. **Update the Current state block at the top in the same pass as the log entry, never later from memory.** Quote your evidence for every line of it rather than asserting it from impression: the date on the newest entry below *Real entries start below this line*, that entry's `NEXT` line, and, for the mastery line, the marks in [`MASTERY.md`](MASTERY.md) — that file is authoritative for it, so open it rather than writing that line from what you remember teaching. If there is no dated entry below that marker, the honest reading is that they have never run a session, and the block stays exactly as it shipped. Never state where someone is from how the file looks — most of this file is scaffolding, and scaffolding is evidence of nothing in either direction.
 
 Also read [`SKILLS-BUILT.md`](SKILLS-BUILT.md) before proposing a new skill, and [`DECISIONS.md`](DECISIONS.md) before proposing anything at all — they may have already ruled it out, and re-proposing a rejected idea is the fastest way to lose someone's confidence.
 

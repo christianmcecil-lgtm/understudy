@@ -368,7 +368,9 @@ handing off when you should have taught costs them the harness entirely.
 2. **Say what the harness is for, in two sentences.** Teacher, harness, verifier; capable rather
    than dependent.
 3. **Stop them from continuing here.** Say it plainly: *"Do not continue in this session. Open a
-   brand new one and paste this."*
+   brand new one and paste this."* If step 4 turns out to need the ownership question first, hold
+   this line until the turn where you actually hand over a block — "paste this" with nothing to
+   paste sends them away before they have answered.
 4. **Give them the prompt for their next session.** All of them live in
    [`BOOTSTRAP.md`](BOOTSTRAP.md), and there are three — settle which one below *first*, then
    read that file and reproduce that single block whole, with the folder location filled in. One
@@ -391,7 +393,13 @@ handing off when you should have taught costs them the harness entirely.
    been used **but their own words say they are new to this folder** — they were given it, they
    just downloaded it, they call it a friend's — that is the one thing you cannot settle from the
    files. Do not guess and do not carry on. Say in one sentence what you found, then ask whether
-   the record is theirs. Then branch:
+   the record is theirs.
+
+   **Ask, and stop there. Give no prompt in this turn.** Name both branches in one line each so
+   they know what their answer buys, and wait. This is the one place in the handshake where "one
+   block, not a menu" does not apply — you do not yet know which block is theirs, and a prompt
+   handed over alongside the question will be pasted before the question is ever answered. Then,
+   once they answer, branch:
 
    - **It is theirs** → the **returning prompt**.
    - **The record is not yours** → this is **an inherited folder**: give the inherited-folder
