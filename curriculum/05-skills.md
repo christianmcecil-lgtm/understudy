@@ -266,7 +266,7 @@ weekly-status/
   SKILL.md
   reference/
     template.md            <- the exact headings and order
-    tone-and-audience.md   <- "my manager forwards this to her director; he skims"
+    tone-and-audience.md   <- "my manager forwards this upward; the next reader skims"
     good-example.md        <- last month's report you were happy with
   checklists/
     before-sending.md      <- the final checks, one per line

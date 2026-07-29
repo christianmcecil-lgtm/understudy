@@ -175,7 +175,7 @@ Rules for using this index:
 - Decisions already made and closed, with dates and reasons
   -> DECISIONS.md
 - Anything about a specific customer
-  -> customers/<name>.md  (list: acme, borealis, cedarline)
+  -> customers/<name>.md  (list: acme, contoso, northwind)
 
 ## Standing rules that apply to every task
 
