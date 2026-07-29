@@ -20,6 +20,8 @@ Everything backward-looking in this harness runs on this file. `/recall-session`
 
 **At the end of every session, append one entry.** Do not wait to be asked. Do not skip it because the session was short, or unfinished, or went badly — those entries are the ones that turn out to matter.
 
+**The one exception** is the orientation handshake in section 9 of [`CLAUDE.md`](../CLAUDE.md): that session writes nothing to this file, because nothing was taught and a dated entry would make every later session read as a return.
+
 Six rules, all of them hard:
 
 1. **Append only. Newest at the bottom.** Never rewrite, tidy, merge, or delete a past entry. An edited log is not a record. A backfilled entry — one written later for a session that was never logged, usually surfaced by `/recall-session` — still goes at the bottom rather than back into the history. It keeps the date of the work it describes and says `(backfilled <today's date> from recall — date approximate)` on its title line, so an out-of-order date reads as deliberate rather than as an error.

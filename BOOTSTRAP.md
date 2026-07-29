@@ -1,6 +1,10 @@
 # BOOTSTRAP — start here
 
-*The one page that turns this folder into a teacher. Four minutes to read, and most of that is copying one block of text.*
+*The one page that turns this folder into a teacher. Fifteen minutes if you read every word — but
+most readers need only the three steps, the model note, the chooser that says which of the three
+prompts is theirs, and that one prompt block. That path is about five minutes, and it ends in a
+block you paste rather than study. The rest is here for when you want the why, or when something
+goes wrong.*
 
 You have been handed a folder. It is not a course you sit down and read. It is a set of
 instructions for an AI, which then teaches you — one topic at a time, tracking what you
@@ -51,12 +55,24 @@ more than the same model checking itself. That is
 On a free plan all of this still works, but you will run into limits partway through a lesson,
 which makes the one-topic-per-session rule matter more for you, not less.
 
+**Where you switch it.** No two products put this control in the same place, and they move it, so
+treat this as where to look rather than as a fact: usually a model name or a dropdown near the top
+of the conversation, or beside the message box — and usually set per conversation rather than once
+for the whole account, which is what makes switching between lessons cheap. If you cannot find one,
+ask the question below before you conclude there is not one — and if the answer is that your setup
+has no picker, then the tier you are on is the one you have, and everything here still works.
+
 Names go stale, so ask yours instead of trusting a list:
 
 ```
 What models can you run as? List them cheapest to most capable, tell me which is
 your mid tier, and tell me how to switch.
 ```
+
+The last clause of that question — *tell me how to switch* — is the one that solves this for you:
+whatever it answers there is the switching procedure for your own setup, from the only thing that
+knows it. Ask before your first lesson rather than during, and ask in a spare conversation, not the
+empty one you are about to paste the ignition prompt into.
 
 As a snapshot taken in July 2026, for Claude only: Opus is the top tier, Sonnet the mid, Haiku
 the small fast one. That is a note from one date, not a durable fact — confirm it with the
@@ -67,7 +83,22 @@ you do not need it to start.
 
 ---
 
+## Which prompt is yours
+
+There are three, and only one of them is for you today:
+
+- **First time here, nothing in `progress/` yet** — the ignition prompt, immediately below.
+- **You have run sessions here before and the record is yours** — the returning prompt, after it.
+- **Someone handed you this folder and there is already progress in it that is not yours** — the
+  third prompt, under "If the progress folder is not yours".
+
+---
+
 ## The ignition prompt
+
+If you were handed this folder by someone else and it already has their progress in it, this is
+not your prompt — it would resume their course. Use the third one instead, under "If the progress
+folder is not yours".
 
 Paste this whole block. The only thing you change is the line in angle brackets.
 
@@ -120,6 +151,67 @@ this session, no more. Teach me in this session — do not send me to a new one.
 
 Keep it somewhere you can reach in five seconds — a note, a pinned message, a text file. The
 friction of finding it is the main reason people stop.
+
+---
+
+## If the progress folder is not yours
+
+This folder is meant to be passed on, and the person who passed it on may not have cleared their
+files first. So you may open `progress/` and find a course already half-finished — topics ticked,
+sessions logged, a person described who is not you. That is an inherited folder, and the record
+is not yours.
+
+Do not use either prompt above. The first one starts a beginner from scratch, which is right, but
+the returning prompt — and the ignition prompt's own instruction to resume any progress it finds —
+would put you partway through a course you never took. Paste this instead:
+
+```
+You are my teacher for a system called Understudy. It lives in this folder:
+
+  <the folder location — the folder that contains README.md and CLAUDE.md>
+
+I was handed this folder by someone else, so anything already in progress/ is
+theirs, not mine.
+
+Read exactly these four files from that folder, in this order, and nothing else
+yet: CLAUDE.md, protocols/TEACHING-PROTOCOL.md, progress/LEARNER.md,
+progress/MASTERY.md. Do not open the curriculum folder — we will open one
+chapter later, when we need it.
+
+Treat every mark and entry you find in progress/ as the previous owner's. Do
+not resume their track, do not count their marks as mine, and do not overwrite,
+edit or delete any of it — that is someone's record.
+
+Do one of these two, then tell me plainly which one you did and where their
+content now is:
+  - List what is in progress/ and move every file you find there into
+    progress/archive/, creating that folder if it does not exist and never
+    overwriting anything already in it, with the contents unchanged. Then
+    write each of those files back into progress/ empty: same filenames, same
+    headings, rules, templates and markers as the archived copies, with every
+    entry, tick, date and fact about the previous person removed.
+    MASTERY.md keeps its full list of topics, every one back to unmarked with
+    no evidence lines. Take the shape from the archived copies and none of the
+    content.
+  - If you cannot write files, change nothing at all, say so, and tell me I will
+    have to keep my own record by hand.
+
+Then run the section of protocols/TEACHING-PROTOCOL.md called "First-session
+opening", exactly as written, treating my mastery track as blank: ask me the one
+question in that section about my actual job, and pick my entry point from my
+answer.
+
+This is already the fresh session BOOTSTRAP.md asks for, so teach me here — do
+not send me to another new session. Do not lecture. Your first reply should be
+short, should quote the line that told you the record was not mine, should say
+what you did with it and where it went, and should end with a question.
+```
+
+From your second session on, use the returning prompt above — by then the record is yours.
+
+If you would rather keep nothing of theirs, get a clean copy of the folder from whoever gave you
+this one, rather than asking the AI to empty this one. Deciding what to destroy is your call, not
+its.
 
 ---
 
@@ -197,6 +289,9 @@ A correctly ignited session does four things in its first reply, and only those 
 
 That is the whole signature. Accounted for, short, oriented, ends with a question.
 
+If you used the inherited-folder prompt, there is a fifth: it says what it did with the previous
+owner's record and where that content is now. If it does not tell you, ask before you carry on.
+
 **It did not read the harness if** its first reply explains what AI is, gives you a tour of the
 folders, lists the five layers of anything, summarises the curriculum, or produces several
 paragraphs before you have said a word. Any of those means it is improvising from general
@@ -219,6 +314,7 @@ written, and give me a short reply that ends with a question.
 | "I cannot find that folder" / "I do not have access to files" | Either the path is wrong or your tool genuinely has no file access | Check the path first by asking it to list what is in the folder. If it truly cannot read files, use the no-file-access version above. |
 | "`progress/MASTERY.md` does not exist" | The tracker has not been created yet, or you are working from a partial copy | Tell it: `Create progress/MASTERY.md from the format described in protocols/TEACHING-PROTOCOL.md, with everything unmarked, then carry on.` If it cannot write files, keep the tracker in a note of your own. |
 | It reads the files and then tells you to open *another* new session and paste the prompt again | It has picked up the harness's own first-contact handoff and applied it to a session that is already the fresh one | Say: `This is the fresh session. Do not hand off again — run the "First-session opening" section here.` If it loops a second time, it is not following the files; use the correction prompt above. |
+| It picks up at a topic you have never been taught, or greets you as someone else | You are in an inherited folder — the record is not yours and it resumed the previous owner's track | Stop and start again with the prompt under "If the progress folder is not yours". Do not let it clear their files as a shortcut. |
 | It starts teaching in the same session that read the whole folder | It skipped the handoff step | Do not continue there. Open a new session and paste the ignition prompt. You will get sharper answers immediately, and that difference is the lesson. |
 | It teaches three topics in one sitting and you feel great | You have been shown three things and taught none | Say: `Stop. One topic per session. Go back to the first one and make me use it on my own work.` Coverage is not learning, and the tracker is about to lie to you. |
 | It marks something learned that you could not explain to a colleague | It graded exposure instead of understanding | Say: `Un-check that. I cannot explain it yet.` A tracker that only goes up is a tracker you cannot trust. Your teacher is required to accept this. |

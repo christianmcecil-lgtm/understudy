@@ -43,6 +43,16 @@ every properly ignited first session has one. The test for first contact is what
 was told to read, and it lives in the first-contact section of [`CLAUDE.md`](../CLAUDE.md).
 Apply that test, and hand off only if it says to.
 
+**If the tracker is filled in but the learner talks like a newcomer** — they were given this
+folder, they just downloaded it, they call it someone else's — do not assume the record is
+theirs. This is the one thing the files cannot settle, so ask rather than guess: say in one
+sentence what you found, and ask whether the record is theirs. If they say it is not, this is
+**an inherited folder** — do not resume the previous owner's track, do not count their ticks as
+this learner's, and do not edit or delete any of it. Send them to the prompt in
+[`BOOTSTRAP.md`](../BOOTSTRAP.md) under *If the progress folder is not yours*, which says what to
+do with the old record. The same three-way branch, in full, is in the first-contact section of
+[`CLAUDE.md`](../CLAUDE.md).
+
 **Then ask what the task is, or take it from the learner's first message.**
 
 **Then load exactly ONE more file** — the single curriculum, protocol, or reference file the
@@ -313,6 +323,10 @@ do all four of these that apply. The first two always apply. Show the entries in
 before writing them, so the learner can correct anything you got wrong about their own
 experience.
 
+**The one exception is the orientation handshake** — the first-contact section of
+[`CLAUDE.md`](../CLAUDE.md). That session captures nothing at all: nothing was taught, and a
+dated entry in `progress/LEARNER.md` would make every later session read as a return.
+
 ### 5a. Always: append to `progress/LEARNER.md`
 
 Append one entry to the **Session log** at the bottom of that file, below the line that says
@@ -458,6 +472,7 @@ DURING   Follow links on demand. Bracket every assumption. Third repetition, off
 PAUSE    Before anything irreversible: what, what cannot be undone, the reversible option. Then stop.
 CAPTURE  Append to progress/LEARNER.md AND progress/SESSION-LOG.md, every session, both.
          Skill built, add to SKILLS-BUILT.md. Real decision, DECISIONS.md.
+         Exception: the first-contact handshake in CLAUDE.md captures nothing.
          There is no automatic memory. Capture or it is gone.
 ```
 

@@ -31,8 +31,9 @@ teaching, so on a standard paid plan the mid tier is the right choice, not the b
 the top tier for your **first** session, though: it has to read the whole system at once.
 
 [BOOTSTRAP.md](BOOTSTRAP.md) has the rest of it before you paste anything — the other two
-occasions worth the top tier, why checking is a different question, and how to find out what your
-own assistant's tiers are actually called this month.
+occasions worth the top tier, why checking is a different question, where the control that changes
+model usually sits, and how to find out what your own assistant's tiers are actually called this
+month.
 
 ## The 60-second version
 
@@ -173,7 +174,11 @@ codified ([SKILLS-BUILT.md](progress/SKILLS-BUILT.md)), the decisions you made a
 change next ([REVIEWS.md](progress/REVIEWS.md)).
 
 It starts nearly empty. It will grow. Back it up like anything you would hate to lose, and if
-you hand this folder on, decide whether `progress/` goes with it — that part is about you.
+you hand this folder on, decide whether `progress/` goes with it — that part is about you. The
+cleanest hand-on is to clear `progress/` first, so the person receiving it has no record of yours
+to untangle before their first session; if you do leave it in, tell them to read the section of
+[BOOTSTRAP.md](BOOTSTRAP.md) headed "If the progress folder is not yours", which is written for
+exactly that.
 
 One caveat, since it decides how much work you do by hand: only an AI that can write files on
 your computer updates `progress/` by itself. In a chat app it usually cannot, so you ask it for

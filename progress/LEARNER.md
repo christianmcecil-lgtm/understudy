@@ -23,6 +23,8 @@ If any line above disagrees with the session log at the bottom, the log wins and
 
 **At the end of every session**, append one entry to the session log at the bottom. Do not wait to be asked.
 
+**The one exception** is the orientation handshake in section 9 of [`CLAUDE.md`](../CLAUDE.md): that session writes nothing to this file, because nothing was taught and a dated entry would make every later session read as a return.
+
 Seven rules, all of them hard:
 
 1. **Append only.** New entries go at the bottom of the session log. Never rewrite an old entry, never delete one, never tidy up past wording, never "consolidate" the log. The value of this file is that it is unedited. A cleaned-up record is a fiction.

@@ -68,6 +68,8 @@ Those four cover most of what follows. Three situations sit outside them, and it
 | [S-19](#s-19--i-need-to-look-back-at-something-i-did-before) | I need to look back at something I did before | Information |
 | [S-20](#s-20--i-have-plateaued-and-do-not-know-what-to-get-better-at) | I have plateaued and do not know what to get better at | Operator |
 
+One entry carries a variant rather than a code of its own: [S-02a](#s-02a--the-variant-where-the-loop-is-with-the-ai-in-front-of-you), for when the loop you are going in circles in is with the AI you are talking to right now. It lives inside S-02 because it is the same situation seen from the inside, and it is probably the commonest one in the file.
+
 Exact wording to paste for many of the moves below lives in [`PROMPT-PATTERNS.md`](../reference/PROMPT-PATTERNS.md). The entries here give you the shape of the sentence; that file gives you the whole thing.
 
 ---
@@ -118,6 +120,20 @@ The other fourteen have no mechanical twin, which is the point of having two fil
 **Learn it properly.** [`curriculum/02-the-context-window.md`](../curriculum/02-the-context-window.md). The mechanical version of this is [F-04, the stale session](./FAILURE-MODES.md#f-04--the-stale-session).
 
 **How to spot it next time.** The signature is a **repeated rejection**: you have now said no to the same suggestion twice. Once is normal. Twice means the conversation is no longer steering, and every further minute in it costs more and works less. A second signature: your last three messages were about the conversation rather than about the work.
+
+### S-02a — the variant where the loop is with the AI in front of you
+
+Everything above describes a session as though you could step outside it to talk about it. Usually you cannot: the session going in circles is the one you are in, and the assistant you would be describing it to is the one you are circling with. That does not change the diagnosis much, but it changes what you should do next, and it adds one advantage you do not have in any other version of this.
+
+*What it feels like.* "I asked you for this an hour ago and we are still going back and forth. Every version has something wrong with it. I do not even know what I am asking for any more." The give-away is in your own sentence: it is full of **you** and **we**, because the failed work is in this chat rather than in a previous one.
+
+*What is actually happening.* The pile-up described above may be part of it, but it is rarely the whole story, and treating it as the whole story sends you to a fresh session that fails the same way. The usual cause is **an under-specified goal that neither of you has ever stated** — so every attempt is fixing a different guess at what you wanted, and every correction narrows a different dimension of it. That is why each version has something wrong and no two are wrong in the same way. You are not converging on one target; you are orbiting several, because no one has written down which is the target. An hour of this feels like a failure to communicate. It is a missing sentence.
+
+*What to do about it.* Stop asking for another version — another version is another guess. Write the goal and the done-check instead: what this is for, who reads it, and the three to five conditions that would make it right ([`DONE-CHECKS.md`](./DONE-CHECKS.md)). Then use the one advantage of being stuck with the AI rather than about it: **it can see the whole failed exchange, so make it do the diagnosis.** Ask what it now thinks you were actually asking for, what each attempt guessed instead, and which of them came closest — then correct that. Its answer will be wrong in a useful way, and correcting a wrong sentence is far easier than producing a right one when you are past caring. Hand off to a fresh session afterwards if the conversation is genuinely heavy, but not before the goal is written down, or the new session inherits the same missing sentence.
+
+*How to spot it next time.* The signature is **two attempts that fix different things**. Not two attempts that are both wrong — two that are wrong in unrelated ways, where the second broke something the first had right. That is the mark of a goal nobody has stated, and it is visible on the second draft, long before the hour is gone. A second signature: you are giving feedback in the form of "not quite" rather than naming a condition it failed.
+
+*The other side of it.* The AI's instructions for this case are the step 1b branch in [`.claude/skills/im-stuck/SKILL.md`](../.claude/skills/im-stuck/SKILL.md): read the exchange back rather than diagnose from the complaint, own its share in one sentence, and offer its own reading rather than ask you to adjudicate. If you are working with an assistant that does not do those things, the three questions in *what to do about it* are the manual version.
 
 ---
 

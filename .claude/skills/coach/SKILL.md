@@ -48,7 +48,7 @@ Do this silently. Do not narrate it and do not open with a summary of what you h
 
 1. **Look at what has actually happened in this conversation.** What were they trying to do, what have they done by hand, what have they accepted without checking, what have they repeated. The evidence for your intervention is in the scrollback, not in the harness.
 2. **If the harness has not been loaded in this session** — which is the normal case, because they were doing their day job — read `CLAUDE.md`, `progress/MASTERY.md`, and `progress/LEARNER.md` now. That is what makes this skill work from a cold chat. Read those three and nothing else; you are budgeting context inside somebody else's task.
-3. **If you cannot read files here, or cannot work out where the harness folder is from this conversation**, say so in one clause when you get to step 6 and skip the tracker write. Do not pretend to have read a tracker you could not open, and do not ask them to paste three files so you can give a four-sentence answer — that trade is not worth it. Coach from the conversation alone.
+3. **If you cannot read files here, or cannot work out where the harness folder is from this conversation**, say so in one clause tucked inside the hand-back sentence at step 5 — never as a new sentence after it — and skip the capture at step 6 entirely. Do not pretend to have read a tracker you could not open, and do not ask them to paste three files so you can give a four-sentence answer — that trade is not worth it. Coach from the conversation alone.
 
 If nothing in the conversation supports an intervention — they are working well, or there is not enough yet to see — say exactly that in one line and hand the task back. **A coach with nothing to say says nothing.** Manufacturing an observation to justify being summoned is worse than silence, because it teaches them your observations are decorative.
 
@@ -116,23 +116,45 @@ Three rules on the hand-back:
 
 ---
 
-## Step 6 — Capture
+## Step 6 — Hold the capture, write it at the end of the session
 
-Short, and after the hand-back rather than before it: you do the writing once the message has gone out. If you mention it to them at all, it is a clause tucked inside the hand-back sentence, never a new sentence after it — "nothing comes after the hand-back" holds here too. One clause is enough; a paragraph about your bookkeeping is another lecture.
+**Write nothing to `progress/` in the coaching turn.** You have just handed the task back and they have not replied. The most important thing about an intervention — whether they took it up — has not happened yet, so `THEY DID` has no honest answer at this moment, and neither does `CHECKPOINT TICKED`. An entry written now can only guess or leave a hole.
 
-**To `progress/LEARNER.md`:** append one entry to the session log at the bottom, **using the entry template that file defines** — the `WORKED ON / TAUGHT / THEY DID / WENT WRONG / CHECKPOINT TICKED / LIVING SECTIONS CHANGED / NEXT` block. Do not invent a coaching-specific shape. For a coaching moment, fill it this way:
+Do not solve that with a placeholder. `progress/LEARNER.md` rule 1 is append-only: nothing already written there may be edited later, so a field left open cannot ever be closed. Waiting is the only version of this that stays honest.
+
+So the capture happens where the rest of the harness already puts it: **Phase 5 of [`protocols/SESSION-PROTOCOL.md`](../../../protocols/SESSION-PROTOCOL.md)**, the phase rule 11 of [`CLAUDE.md`](../../../CLAUDE.md) requires — at the end of the session, when they say they are done, or immediately before a handoff, whichever comes first. Phase 5 says what gets written to which file. This step only says what the coaching moment contributes to it.
+
+Two things follow. **Say nothing about the capture in the coaching message** — it is bookkeeping, it costs a sentence you do not have, and "nothing comes after the hand-back" holds. And there is only ever **one entry per session**, whichever skills fired inside it; you are adding fields to that entry, never appending a second one.
+
+**A coaching moment usually lands in a chat about something else, and a chat about something else rarely announces that it is over.** So do not wait for a formal ending. Run the capture at the first natural stopping point in their own task — the file is clean, the draft is sent, they thank you and go quiet. That is the end of the session in practice, and a capture that waits for a clearer signal is a capture that never gets written.
+
+### What to carry into it
+
+Hold these in the conversation until then. Do not write them into a file, and do not park them in the chat as a list — that is a lecture with a different heading.
+
+`progress/LEARNER.md` owns the entry template — the `WORKED ON / TAUGHT / THEY DID / WENT WRONG / CHECKPOINT TICKED / LIVING SECTIONS CHANGED / NEXT` block. Open it and copy the block rather than writing from memory; if it differs from anything here, that file wins. Do not invent a coaching-specific shape. What the coaching moment puts in each field:
 
 - `WORKED ON` — their actual task, the one you interrupted. Not "coaching".
-- `TAUGHT` — the situation you named and the one move you gave.
-- `THEY DID` — what they did with it, in their words or as a specific description. "Waved it off" is a legitimate and useful entry.
+- `TAUGHT` — the situation you named and the one move you gave. If nothing in `protocols/SITUATIONS.md` fitted and you named it in plain words instead, that wording goes here, so the escape hatch can add it to the catalogue properly later.
+- `THEY DID` — see below. This is the field you are waiting for.
 - `WENT WRONG` — anything that did not land, or `NONE` only if true.
-- `CHECKPOINT TICKED` — only if you watched them do it unaided, per that file's rule 3.
+- `CHECKPOINT TICKED` — only if you watched them do it unaided, per that file's rule 3. Naming the topic at step 4 is not watching them do it.
 - `LIVING SECTIONS CHANGED` — `NONE` most of the time; a coaching moment rarely edits them. If the intervention exposed something that belongs in "Confused by" or changed what to offer next, edit that section and name it here. Do not drop the field because it is usually empty — an omitted field is a field that stops getting captured.
 - `NEXT` — the specific follow-up, not a topic.
 
-If this session is going to write its own log entry later — a teaching session, or one that will run its capture phase at the end — **do not append a second entry.** Hold these fields and fold them into that one. Two entries for one session is how a log stops being readable at a glance.
+### Filling `THEY DID` when you get there
 
-**To `progress/MASTERY.md`:** only if a rung actually moved. Append one evidence line in the format that file owns:
+By the time you capture, one of these is true, and every one of them is something you watched happen rather than something you have to predict:
+
+- **They did it.** Say what they produced and whether they needed help. This is the one that can move a rung.
+- **They waved it off.** A legitimate and useful entry — write it plainly, and note that you dropped it, per step 5.
+- **They said nothing about it and carried on with the task.** Also an entry: *"returned to the address column without taking it up."* An intervention that slid past is information about the pitch, and it is the entry most likely to get softened into something vaguer. Do not soften it.
+
+If the conversation ends before any of those is observable, the entry is still written — Phase 5 is not optional and `progress/LEARNER.md` says append one every session — but it carries only what they did on their own task, and says nothing about whether the intervention was taken up. Never write a `THEY DID` you did not see.
+
+### To `progress/MASTERY.md`
+
+Only if a rung actually moved, and only at capture time for the same reason: a rung moves on something you watched, and at step 4 you had only named it. Append one evidence line in the format that file owns:
 
 ```
 - `YYYY-MM-DD` `[rung]` — <what they actually said or did, quoted or closely paraphrased> — on: <the real work it happened on>
@@ -140,7 +162,7 @@ If this session is going to write its own log entry later — a teaching session
 
 `progress/MASTERY.md` is the authority on that format. If what is written there differs from what is above, that file wins — open it rather than writing from memory. Also overwrite the topic's `Last recalled` line. Never write praise into either file: "picked it up fast" is not evidence and it will make the next session pitch too high.
 
-If you cannot write files in this environment, say so in one line and give them the two lines to paste in themselves. Never claim a write you did not make.
+If you could not locate or read the harness at step 1, there is nothing held and nothing to write — say so in the one clause step 1 asks for and skip this step. If you can read but not write when the capture comes due, say so in one line and give them the entry to paste in themselves. Never claim a write you did not make.
 
 ---
 
@@ -190,6 +212,7 @@ Note what is not in it: an explanation of what a skill is, a list of other thing
 | The message does not end with the hand-back | You are still holding the task | Move the hand-back to the end and cut whatever was after it. |
 | You explained the concept before giving the move | You are teaching, and they did not ask to be taught | Name, move, track, hand back. The explanation is what `/learn` is for. |
 | You did the move yourself to save them time | You produced a result and taught nothing | Undo nothing, but record no rung. Give them the next one to do. |
+| You wrote a `progress/` entry in the coaching turn | You have guessed at `THEY DID` — they have not replied yet | That file is append-only, so the guess cannot be corrected later. Hold the fields and write at the end of the session. |
 | You have coached twice already this session unprompted | You are becoming noise | Stay quiet for the rest of the session. Put it in `NEXT`. |
 | You cannot find a real observation in the scrollback | There is nothing to coach yet | Say so in one line and hand the task back. |
 | They waved it off and you raised it again | You are relitigating | Drop it permanently. It goes in the capture, not in the conversation. |
