@@ -1,0 +1,25 @@
+# .gitignore — the list of things git is told to pretend it cannot see.
+# Anything matching a line below is left out of every commit. See curriculum/15-git.md.
+# This folder is plain markdown, so the list is short: junk the operating system and
+# the editors leave behind, and nothing else.
+
+# Operating system clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and tool directories
+.vscode/
+.idea/
+*.swp
+
+# Deliberately NOT ignored: progress/
+#
+# progress/LEARNER.md, MASTERY.md, DECISIONS.md, SKILLS-BUILT.md, REVIEWS.md and
+# SESSION-LOG.md are the whole point of keeping this folder in git. They are your record
+# of what you learned, what you decided, and what you built — the part that is yours and
+# cannot be downloaded again. Tracking them is what gives you a history you can read back.
+#
+# If you copy this file into a folder of your own, check you have not ignored your own
+# equivalent by accident. Notes and working files look like clutter to a rule written in a
+# hurry, and an ignored file is one git will never warn you about losing.

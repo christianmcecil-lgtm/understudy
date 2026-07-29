@@ -22,6 +22,13 @@ This is the setup the harness was built for. Everything in it works.
 avoid: a temporary or downloads folder that you will clear out, and a path you cannot easily
 type. Keep the folder name simple, with no spaces if you can help it.
 
+**Keep it separate from anything you already have.** Do not merge these files into a project
+that already has a `CLAUDE.md`, a `.claude/` folder, or its own skills and agents. The names in
+here are deliberately ordinary — `/learn`, `/quiz`, `/coach`, `/handoff`, a teacher, a scout, a
+reviewer, a verifier, an adversary — so if you already have something by one of those names,
+merging the two means one version shadows or replaces the other, and nothing tells you which
+one won. Kept separate, there is no collision and nothing of yours is touched.
+
 **2. Open your AI so that this folder is the folder it is working in.** Most command-line
 agents adopt whatever folder you launched them from, so the usual move is: open a terminal,
 move into this folder, then start the AI. Desktop agents usually ask you to pick a project
@@ -74,12 +81,18 @@ explains why, in the section headed "Why a brand new session".
 
 **1. Make a project.** Look for something like "Projects", "Spaces", or "Custom GPTs" in your
 app — a container that holds instructions and files across many conversations. Make one and
-call it something you will recognise, like "Harness".
+call it something you will recognise, like "Harness". Make a *new* one rather than reusing a
+project you already work in: this folder brings its own standing instructions and its own set
+of named procedures, and it should not be sitting on top of a setup you have already tuned. If
+a name in here matches one you already use, one of the two quietly wins and nothing tells you
+which.
 
 **2. Give the project its instructions.** Look for a box called something like "custom
-instructions", "project instructions", or "system prompt". Open `CLAUDE.md` from this folder in
-any text editor, copy all of it, and paste it in there. That file is what turns a normal
-assistant into this one, so if you only do one thing, do this.
+instructions", "project instructions", or "system prompt". **Before you paste anything into
+that box, copy out whatever is already in it** and keep it somewhere — a note, a text file,
+anywhere. Pasting replaces what was there, and there is usually no undo. Then open `CLAUDE.md`
+from this folder in any text editor, copy all of it, and paste it in. That file is what turns a
+normal assistant into this one, so if you only do one thing, do this.
 
 **3. Upload the files.** Look for something like "Add files", "project knowledge", or a
 paperclip. Upload as much of the folder as it will accept. If there is a limit, upload in this
@@ -146,9 +159,13 @@ projects. It still works. It is just more manual.
 
 **1. Paste `CLAUDE.md` as the standing instruction.** Open `CLAUDE.md` from this folder in a
 text editor and copy all of it. If your assistant has a settings field called something like
-"custom instructions", "system prompt", or "personality", paste it there. If it has no such
-field, paste it as the first message of every new conversation, above whatever you were going
-to ask.
+"custom instructions", "system prompt", or "personality", paste it there — but **copy out
+whatever is already in that field first** and save it somewhere. Whatever you had in there is
+replaced, not added to, and most apps will not give it back. The same goes for any procedure or
+persona you have already set up under a name this folder also uses: yours may end up shadowed,
+so keep a copy of it before you start. If your assistant has no such field, paste `CLAUDE.md`
+as the first message of every new conversation, above whatever you were going to ask — which
+changes nothing you already have.
 
 **2. Paste files as you need them, not all at once.** Start with
 `curriculum/00-orientation.md`. After that, paste only the one file that matches what you are

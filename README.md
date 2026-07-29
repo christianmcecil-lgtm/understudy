@@ -1,6 +1,13 @@
-# The Harness
+# Understudy
+
+**A teaching harness for working with AI.**
 
 *Start here. What this folder is, and how to get something useful out of it today. Read time: 6 minutes.*
+
+An understudy learns a role by working alongside someone who already has it, until they can
+play it themselves. That is what this folder does. You point your AI at it, and it becomes your
+teacher — one that tracks what you actually understand, checks its own work, and hands the role
+over to you rather than keeping it.
 
 ## What this is
 

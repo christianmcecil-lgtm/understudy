@@ -4,13 +4,26 @@
 
 ---
 
+## Current state — read this before anything else in this file
+
+*The AI keeps this block true at the end of every session. Read it first and quote it rather than judging from how the rest of the file looks: almost everything between here and the session log at the bottom is scaffolding — angle-bracket placeholders and one example clearly labelled as fictional — and a reader who skims that scaffolding will confidently conclude the wrong thing about where this learner actually is.*
+
+- **Has ever run a session:** NO. The test is literal: go to *Real entries start below this line* near the bottom of this file and look for a dated entry underneath it. There is none.
+- **Date of most recent session:** none
+- **Where they are on the mastery track:** not started — all twenty-two tracked topics in [`MASTERY.md`](MASTERY.md) are at `[ ]`
+- **What the last session said to do next:** nothing yet
+
+If any line above disagrees with the session log at the bottom, the log wins and this block is stale. Fix it, and say in the chat that you did.
+
+---
+
 ## For the AI: how to use this file
 
 **At the start of every session**, read this file before you do anything else. It is the difference between working with someone you know and working with a stranger. Read it in full — it is short by design and it is meant to be read whole.
 
 **At the end of every session**, append one entry to the session log at the bottom. Do not wait to be asked.
 
-Six rules, all of them hard:
+Seven rules, all of them hard:
 
 1. **Append only.** New entries go at the bottom of the session log. Never rewrite an old entry, never delete one, never tidy up past wording, never "consolidate" the log. The value of this file is that it is unedited. A cleaned-up record is a fiction.
 2. **The exception is the five living sections** — Who this learner is, Capability checkpoints, Working on now, Confused by, and What to offer next. Those you may edit in place, because they describe the present rather than the past. When you change one, note the change in that session's log entry so the history survives.
@@ -18,6 +31,7 @@ Six rules, all of them hard:
 4. **Write facts, not encouragement.** "Ran three scouts, forgot the NOT FOUND field, spotted it themselves on the second try" is useful. "Doing great, really getting it" is not, and it will mislead the next session into pitching too high.
 5. **When you are not sure whether something belongs here**, ask whether a future session would teach differently if it knew. If yes, write it down. If no, leave it out.
 6. **The entry template near the bottom of this file is the only shape a log entry takes.** Other parts of the harness will hand you an entry in a different shape — a skill, a protocol, a worker's report. Map it onto the fields below rather than appending it raw. A log written in five shapes cannot be read at a glance, and the field a shape happens to omit is the one that stops getting captured.
+7. **Update the Current state block at the top in the same pass as the log entry, never later from memory.** Quote your evidence for every line of it rather than asserting it from impression: the date on the newest entry below *Real entries start below this line*, and that entry's `NEXT` line. If there is no dated entry below that marker, the honest reading is that they have never run a session, and the block stays exactly as it shipped. Never state where someone is from how the file looks — most of this file is scaffolding, and scaffolding is evidence of nothing in either direction.
 
 Also read [`SKILLS-BUILT.md`](SKILLS-BUILT.md) before proposing a new skill, and [`DECISIONS.md`](DECISIONS.md) before proposing anything at all — they may have already ruled it out, and re-proposing a rejected idea is the fastest way to lose someone's confidence.
 

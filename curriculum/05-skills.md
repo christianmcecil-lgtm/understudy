@@ -317,8 +317,14 @@ anything yet.
 Two things to notice. "Do not build anything yet" gets you a diagnosis before a build, or you
 end up with eleven skills and use two. And sorting by recurrence against build cost keeps you
 honest: a fiddly skill for something you do twice a year is a hobby, not a tool. If your AI
-cannot see your history, run the same prompt against your sent email, your notes folder, or
-last month's calendar.
+cannot see your history, run the same prompt against material that is plainly yours — your own
+notes folder, your own past drafts, your own memory store.
+
+Be careful about the obvious next step. A work mailbox, a shared drive, or a team calendar is
+full of other people's information, and in many organizations pointing an AI at it is a policy
+or data-protection breach regardless of how useful the answer would be. That is a question to
+ask before it is a source to mine — see [Safety, privacy and trust](10-safety-privacy-and-trust.md).
+Your own notes will find you the same repeats anyway.
 
 ### Method 3 — Get interviewed
 

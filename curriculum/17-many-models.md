@@ -257,6 +257,31 @@ You do not need to install anything. You do not need a terminal. You need two br
 Most readers of this harness will never install a second command-line tool, and that is fine,
 because this version captures most of the value.
 
+**Before the first paste — a gate that is not about accuracy.** Everything else in this chapter is
+a question about whether your work is right. This one is not, and it comes first. Sending your
+artifact to a second vendor means **a second company now holds that material.** The first vendor
+was a decision somebody made, possibly before you arrived, possibly at an account level you never
+saw. The second one is a decision you are about to make on your own, at the moment you press
+paste. [Safety, privacy, and trust](10-safety-privacy-and-trust.md) is the chapter that governs
+this, and its rule applies here exactly as written: pasting is transmitting, and for client or
+customer data, regulated data, credentials, or anything under an NDA or marked confidential, the
+policy decision belongs to your employer and your client — not to your own read of whether it is
+probably fine. Read it before your first cross-vendor check, not after.
+
+Two parts of it bite specifically here:
+
+- **Permission is per-vendor, not per-practice.** "We use AI here" is not clearance for a second
+  vendor. The tool your organisation approved is the tool your organisation approved. Ask about
+  the second one by name, and get the answer before you need it.
+- **A free tier may not carry the same terms as a paid one.** Consumer and free plans commonly
+  differ from business plans on retention and on whether your input can be used to improve future
+  models, and whatever agreement your employer has with vendor one does not travel with the text
+  into vendor two. The advice below that a free tier is fine for a checker is a statement about
+  capability. It says nothing about permission.
+
+If the answer is no, or you cannot get an answer today, you are not stuck — see the fallback in
+section 11. You lose a rung; you do not lose the check.
+
 **The setup:** two different assistants, from two different vendors, open side by side. If the
 second one has a free tier, that is fine for this — the checker is reading one page and finding
 fault, which is not a task that needs the strongest available engine. If you only have access to
@@ -332,8 +357,26 @@ Give the checker exactly two things:
 1. **The artifact.** The finished thing, on its own.
 2. **The criteria.** What it must be true or good for.
 
-Withhold: how it was made, why choices were made, what you were worried about, what the first
-model said about its own work, and — usually — that an AI made it at all.
+There are two separate reasons to hold something back, and they are different questions. Keep
+them apart, because only one of them is about accuracy.
+
+**Withhold so the check stays independent:** how it was made, why choices were made, what you were
+worried about, what the first model said about its own work, and — usually — that an AI made it at
+all. This list is a *technique*. Break it and you still get a check; it is just a worse one, for
+the reasons above.
+
+**Withhold because you may not be permitted to send it at all:** client and customer identifiers,
+regulated data, anything under an NDA or marked confidential, and credentials of any kind — which
+never go into any assistant, first or second. This list is a *boundary*. Break it and the quality
+of the check stops being the interesting question. See
+[Safety, privacy, and trust](10-safety-privacy-and-trust.md).
+
+When the second list is what is stopping you, redaction is often the way through — replace the
+names and figures with consistent placeholders before the artifact leaves, as chapter 10 Part 3
+shows. Two things to be honest with yourself about when you do. A redacted artifact still gets you
+a real check on structure, logic, and internal consistency, but not on the facts you removed. And
+redaction that leaves the material identifiable anyway is not redaction; if it cannot survive the
+edit, stay on rung 2 with a vendor you are already cleared for.
 
 ### Worked example: a bad handoff and a good one
 
@@ -532,6 +575,39 @@ sitting on. That is the moment to bring in a different model, even for work that
 stakes. A new job is full of these moments. That is a large part of why this chapter is in the
 harness.
 
+### The tension in the bottom two rows
+
+Name it rather than stepping around it. The two rows that most need a different model — client,
+executive, public, defensible, irreversible — are also the two rows most likely to hold material
+you are not free to hand to a second vendor. **Stakes and confidentiality rise together.** The
+table asks for rung 4 exactly where [Safety, privacy, and trust](10-safety-privacy-and-trust.md)
+is most likely to say no.
+
+That is not a reason to paste it anyway and hope, and it is not a reason to skip the check. It is
+a reason to get the permission answer *in advance*, from whoever owns it, rather than discovering
+the question at 6pm with a finished draft and a deadline. Work that lands in these rows is
+predictable. The clearance can be too.
+
+When the answer is no, the fallback is not "nothing." Do these, in this order:
+
+1. **Rung 2, done properly.** A fresh session of a vendor you are already cleared for, artifact
+   and criteria only, refutation framing, quota enforced. Weaker than rung 4 because the
+   landscape is unchanged — section 3 is honest about that — and enormously stronger than the
+   rung 0 most people are actually on.
+2. **Rung 5 on every claim that admits it.** A deterministic check outranks the rung you were
+   denied, and it needs no vendor at all: counts, totals, every name in the source list checked
+   against every name in the summary, every link opened. This is the compensation that actually
+   works, and it is the one the ladder already ranks highest.
+3. **A human who is not you.** A colleague already inside the confidentiality boundary is
+   independent in the way that matters and is covered by the same obligations you are. On the
+   bottom row the table asks for this anyway.
+4. **Redaction, where the material survives it.** Section 8 covers what that buys and what it
+   does not.
+
+Say which of these you did when you hand the work over. "Checked against a fresh session and every
+figure reconciled to the source" is a defensible sentence. So is "not cross-checked against a
+second vendor, because we are not cleared to send this out." Both beat silence.
+
 ## 12. Rotate the checker, and learn the blind spots
 
 One habit turns this from a procedure into a skill: **rotate which model does the checking.**
@@ -607,6 +683,12 @@ the whole arrangement to get. Checker reports. Worker fixes. You decide.
 Take something an AI produced for you this week that you actually care about — a summary, a plan,
 a recommendation, a draft you sent or nearly sent. If you have nothing, spend two minutes making
 one on a topic you already know well, so you can judge the findings yourself.
+
+Pick something you are allowed to send. This exercise puts your artifact in front of a second
+vendor, so apply the gate in section 7 before you choose: if the only thing you care about this
+week is client, confidential, or regulated, either redact it or do the exercise on something else
+and go get the permission answer separately. Practising the habit does not require the sensitive
+document.
 
 Open **a different vendor's assistant** in a second browser tab. Not a new chat with the same one.
 A different one. A free tier is fine if it has one. If you genuinely cannot get to a second

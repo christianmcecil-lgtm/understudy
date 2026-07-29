@@ -182,6 +182,12 @@ Six notes on this shape:
 - **Newest at the top** inside running logs, so the current state is visible without scrolling.
 - **Plain text, always.** Markdown files open in anything, live for decades, and can be read by any AI you switch to later. Do not put your memory somewhere only one product can read.
 
+### The one rule for `people.md`
+
+That file is the only part of the store that holds information about other people, which makes it the only part where being sloppy has a victim. Keep it to what helps you work with someone - what they care about, how they like things sent, what they own - and not to your opinion of them. The test, borrowed from [The First 90 Days](11-first-90-days.md): if a line in that file would embarrass you to have read aloud by the person it describes, do not write it. That is the whole rule and it is enough.
+
+Two extensions of it. Never put a client or customer in there by name - use a role or a label, because this folder gets pasted into AI tools and you do not always control where that goes. And check what your employer's rules actually say about personal data before you start; storing notes on named colleagues is exactly the kind of thing a policy has an opinion about. [Safety, privacy, and trust](10-safety-privacy-and-trust.md) covers what leaves your machine and why it matters.
+
 ### What to put in it, and what to leave out
 
 There is a useful split between two kinds of information:
@@ -259,6 +265,8 @@ time of asking; never quote a stored copy:
 - Never delete. Move it to `archive/`, add a line at the top saying the date it
   stopped being true and what replaced it, and remove it from the routing table.
 - If you write or summarize a file yourself, put a line at the top saying so.
+- Nothing goes in `people.md` that I would not be happy for that person to read.
+  Never record a client or customer by name anywhere here - use a role or a label.
 - When you add a file, add its row to the routing table above in the same turn.
   A file that is not in the table does not exist as far as future sessions know.
 

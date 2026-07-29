@@ -159,9 +159,12 @@ None of this makes the terminal bad. It makes it a sharp tool, and sharp tools h
 This is the whole requirement. Learn these six and you have cleared the fear, which is the
 actual goal. Everything else, you ask for.
 
-Notice what each of these has in common: none of them change anything. Five are read-only and
-one is a stop button. That is deliberate. Your entire beginner competence should be made of
-things that cannot break anything.
+Notice how they are weighted. Five of the six cannot change anything on their own: opening the
+terminal, checking where you are standing, moving and looking, stopping what is running, and
+copying an error out. The sixth is running a program, and that one is exactly as safe as the
+thing you run — which is why Part 5 exists and why it is a rule rather than a suggestion. That
+is deliberate. Almost all of your beginner competence should be made of things that cannot break
+anything, and the one part that can should always pass through a question first.
 
 ### 1. Open it
 
@@ -229,8 +232,11 @@ copying the whole thing, not a summary of it, and pasting it along with what you
 Part 9 gives you the exact wording. The skill is not interpretation. It is faithful reporting,
 which is a thing you already know how to do.
 
-**That is the list.** Open, locate, move, run, stop, report. Nothing on it can destroy anything.
-Everything beyond it is optional and askable.
+**That is the list.** Open, locate, move, run, stop, report. Five of those six cannot destroy
+anything, whatever you type. The sixth — running a thing — has no danger of its own but inherits
+whatever the program you started does, so that is the one that goes through the rule in Part 5,
+every time, including when your AI wrote the line. Everything beyond the list is optional and
+askable.
 
 ---
 

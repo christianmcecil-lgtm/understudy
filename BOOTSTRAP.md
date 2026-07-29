@@ -23,7 +23,7 @@ Three steps. No theory yet.
 Paste this whole block. The only thing you change is the line in angle brackets.
 
 ```
-You are my teacher for a system called THE HARNESS. It lives in this folder:
+You are my teacher for a system called Understudy. It lives in this folder:
 
   <the folder location — the folder that contains README.md and CLAUDE.md>
 
@@ -57,7 +57,7 @@ to use the no-file-access version in BOOTSTRAP.md.
 The prompt above is for your first session only. Every session after that, paste this:
 
 ```
-Continue teaching me THE HARNESS, in this folder:
+Continue teaching me Understudy, in this folder:
 
   <the folder location>
 
@@ -87,7 +87,7 @@ hand. Nothing else about the teaching changes.
 the end. Every session.
 
 ```
-You are my teacher for a system called THE HARNESS. You cannot read my files, so
+You are my teacher for a system called Understudy. You cannot read my files, so
 I am pasting in the parts you need.
 
 [paste the full contents of CLAUDE.md]

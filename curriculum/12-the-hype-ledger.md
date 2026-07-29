@@ -168,15 +168,19 @@ not the information the headline claims.
 
 ### Running the checklist on a real-shaped claim
 
-> "This memory framework beats the leading alternative — my setup gets 9,000 tokens down to
-> 600. One-line install, link in the description."
+Here is a claim in the shape you will meet constantly. It is a composite, not a quotation from
+anyone: the wording is assembled to carry the pattern, and the numbers are deliberately round
+so that nobody mistakes them for a measurement.
+
+> "This tool beats every other way of handling what the AI remembers — my setup takes 10,000
+> tokens of context down to 1,000. One-line install, link in the description."
 
 - **Who measured?** The person who built it and is distributing it.
-- **Baseline?** Unstated. 9,000 tokens of what, doing what, against which configuration?
-- **Reproducible?** No. You do not have their vault, their queries, or their prior setup.
+- **Baseline?** Unstated. 10,000 tokens of what, doing what, against which configuration?
+- **Reproducible?** No. You do not have their notes, their queries, or their prior setup.
 - **If false?** You would see exactly this video. The number was asserted, never demonstrated
   on screen.
-- **Selling?** The framework, plus a community.
+- **Selling?** The tool, plus a community.
 
 Conclusion: one useful pointer (memory systems have a storage, injection, and recall problem,
 and those are separable — that framing is genuinely useful), zero usable numbers. Take the
@@ -430,15 +434,20 @@ A ledger you maintain stays useful; a list you inherited decays.
 One file. A table. Five columns. Nothing more, because anything heavier will not survive
 contact with a busy month.
 
+> **This is a filled-in example, not anybody's real ledger.** The rows, the testing, the
+> judgements, and the dates below are invented to show the format. Nothing in it is a finding,
+> and none of it is evidence for or against any of the claims it names — your own rows are the
+> only ones that mean anything.
+
 ```markdown
 # My hype ledger
 
 | Claim | Where I heard it | Status | What would change my mind | Last checked |
 |---|---|---|---|---|
-| Cheap model is fine for meeting summaries | A video, and my own testing | HOLDS - tested on 12 of my own summaries, could not tell them apart | A summary that misses something a colleague catches | 2026-07 |
+| Cheap model is fine for meeting summaries | A video, and my own testing | HOLDS - tested on a dozen of my own summaries, could not tell them apart | A summary that misses something a colleague catches | 2026-03 |
 | Agent swarms overnight are worth it for me | Two videos, no personal test | UNTESTED - and expensive to test | A bounded overnight run that produced something I actually used | not yet |
-| Verification catches things I miss | Own experience, repeatedly | HOLDS - mechanism is obvious | A month of separate-check passes finding nothing | 2026-07 |
-| "40% fewer tokens" from a tool I saw | One video, no method shown | UNSUPPORTED - number asserted, never demonstrated | Someone showing before/after context measurements | 2026-07 |
+| Verification catches things I miss | Own experience, repeatedly | HOLDS - mechanism is obvious | A month of separate-check passes finding nothing | 2026-03 |
+| "40% fewer tokens" from a tool I saw | One video, no method shown | UNSUPPORTED - number asserted, never demonstrated | Someone showing before/after context measurements | 2026-03 |
 ```
 
 Four statuses is enough:
