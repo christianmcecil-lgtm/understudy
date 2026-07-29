@@ -2,6 +2,31 @@
 
 *How to get this folder into your AI, for three different setups. Find your setup, read only that section. Read time: 5 minutes.*
 
+## Two things first
+
+Both of these apply to every setup below.
+
+**1. Open a brand new, empty conversation.** Not the one you already have going. Whatever is
+already in that conversation gets re-read by the AI on every single turn, and it will compete
+with the teaching for room and attention. Start clean.
+
+**2. Use the mid tier for lessons, and the top tier for your first session.** Nearly every
+assistant offers three engines — a small fast one, a mid one, and a top one. The names change
+constantly; the three tiers do not. [`BOOTSTRAP.md`](BOOTSTRAP.md) covers this properly in the
+section headed *Before you paste: which model*, including when the top tier is worth it and why
+a second opinion needs a different vendor rather than a stronger model. Read it there — this page
+is about getting the folder installed.
+
+**Find out what your tiers are actually called**, because the names move and the sections below
+refer to switching between them. Paste this in:
+
+```
+What models can you run as? List them cheapest to most capable, tell me
+which one is your mid tier, and tell me how to switch between them.
+```
+
+---
+
 ## Which one are you?
 
 | If this sounds like you | Read |
@@ -34,6 +59,10 @@ agents adopt whatever folder you launched them from, so the usual move is: open 
 move into this folder, then start the AI. Desktop agents usually ask you to pick a project
 folder when you open them — pick this one. If you are not sure whether it worked, the check at
 the end of this file will tell you.
+
+Most folder-reading agents switch model with a command or a setting rather than a menu — this is
+one of the three occasions above, since the AI is about to read the whole folder, so run it on
+the top tier and drop back to the mid tier afterwards.
 
 **3. Say this, exactly:**
 
@@ -116,6 +145,9 @@ now on. Then tell me, in five lines, what changed about how you will work
 with me.
 ```
 
+The model picker in a chat app is usually near the message box or at the top of the conversation,
+and is usually set per conversation, so switching tier between lessons costs you nothing.
+
 **5. Ask for skills by name instead of typing slashes.** Be aware of this one honestly: in most
 chat apps, typing `/whats-possible` will not run anything. The slash is a feature of AIs that
 read a folder, not of chat apps. It may do nothing, or it may open the app's own menu.
@@ -156,6 +188,11 @@ instead.
 
 Use this if you have an assistant that is not a folder-reading agent and does not have
 projects. It still works. It is just more manual.
+
+You may not have a model picker at all here, so this is where the tier question in
+[Two things first](#two-things-first) earns its keep: ask it, see which of the three tiers it
+says it is running as and whether you can change it, and if the answer is that you cannot, carry
+on with what you have — one topic per session matters more when you cannot pick the engine.
 
 **1. Paste `CLAUDE.md` as the standing instruction.** Open `CLAUDE.md` from this folder in a
 text editor and copy all of it. If your assistant has a settings field called something like

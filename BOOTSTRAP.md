@@ -18,6 +18,55 @@ Three steps. No theory yet.
 
 ---
 
+## Before you paste: which model
+
+Two settings sit between you and the prompt below. The first is step 2 — a **new, empty
+conversation**, because an old one is already carrying unrelated material the AI re-reads every
+turn, and that material competes with you. The long version is further down this page, under
+"Why a brand new session". The second setting is which model you are running it on.
+
+**Almost every assistant has three tiers:** a small fast one, a mid one, and a top one. The
+names change constantly. The tiers do not.
+
+**The mid tier is your default for lessons.** Teaching is reading, explaining and conversation,
+and the mid tier does that well — running every session on the top tier mostly buys you fewer
+sessions, not better teaching. On a standard paid plan that is the right setting, not the budget
+one.
+
+**Use the top tier three times:** this first session, where the AI reads the whole system and has
+to hold it together; any session where you build a new skill from scratch; and anything where you
+are going to act on the answer or send it to someone. So: top tier now, mid tier from your second
+session on.
+
+**Do not run lessons on the small fast tier.** The small tier is built for short, well-specified
+jobs. A lesson here is the opposite of that: multi-step protocols the AI has to follow exactly,
+in order, while also paying attention to you. Save the small tier for the grunt work you will
+learn to hand it later — extracting, reformatting, sorting, classifying.
+
+**Cross-checking is a different question.** When you want a second opinion on an answer, what
+matters is a *different vendor*, not a higher tier — a mid model from another company catches
+more than the same model checking itself. That is
+[`curriculum/17-many-models.md`](curriculum/17-many-models.md).
+
+On a free plan all of this still works, but you will run into limits partway through a lesson,
+which makes the one-topic-per-session rule matter more for you, not less.
+
+Names go stale, so ask yours instead of trusting a list:
+
+```
+What models can you run as? List them cheapest to most capable, tell me which is
+your mid tier, and tell me how to switch.
+```
+
+As a snapshot taken in July 2026, for Claude only: Opus is the top tier, Sonnet the mid, Haiku
+the small fast one. That is a note from one date, not a durable fact — confirm it with the
+question above rather than taking those names on trust, and for any other assistant, ask the
+question and map its answer onto the same three tiers. The full version
+of this is [`curriculum/09-cost-models-and-effort.md`](curriculum/09-cost-models-and-effort.md) —
+you do not need it to start.
+
+---
+
 ## The ignition prompt
 
 Paste this whole block. The only thing you change is the line in angle brackets.

@@ -18,6 +18,22 @@ decided, checks its own work before it hands anything to you, and gets a little 
 every week because you and it keep writing things down. You do not need to be technical, and
 you do not need to read all of it — five minutes gets you the first useful result.
 
+## Two things before you start
+
+**Start a brand new conversation.** Not a continuation of whatever you were doing. An old
+conversation is already full of unrelated material that the AI re-reads every turn, and it will
+compete with the teaching.
+
+**Use the mid model, not the top one.** Almost every assistant has three tiers — small and fast,
+mid, top — and a teaching session is reading, explaining and conversation, which the mid tier
+does well. Running every lesson on the top tier mostly buys you fewer sessions rather than better
+teaching, so on a standard paid plan the mid tier is the right choice, not the budget choice. Use
+the top tier for your **first** session, though: it has to read the whole system at once.
+
+[BOOTSTRAP.md](BOOTSTRAP.md) has the rest of it before you paste anything — the other two
+occasions worth the top tier, why checking is a different question, and how to find out what your
+own assistant's tiers are actually called this month.
+
 ## The 60-second version
 
 **Step 1.** Open [BOOTSTRAP.md](BOOTSTRAP.md) and do what it says. It is one page and it is the

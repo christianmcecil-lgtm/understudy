@@ -17,6 +17,14 @@ directly. There is a prompt for exactly that at the end.
 If you take one thing: the shape has been the same through several generations of models, and it
 will probably outlive the next several. Learn the shape.
 
+**If you came in through the front door** — [README.md](../README.md),
+[BOOTSTRAP.md](../BOOTSTRAP.md) or [INSTALL.md](../INSTALL.md) — **you already have the short
+answer**: run lessons on the mid tier, and spend the top tier on the first session, on building
+a skill, and on anything you are going to act on or send. That is the front door giving you a
+default so you can get started. This file is the reasoning underneath it, and it goes further
+than a default: there is a second lever most people never touch, and a way to write the whole
+decision down once instead of making it badly every time.
+
 ---
 
 ## Why cost exists at all, mechanically
