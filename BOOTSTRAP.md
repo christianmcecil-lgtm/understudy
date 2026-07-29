@@ -17,8 +17,26 @@ Three steps. No theory yet.
 2. **Open a brand new conversation.** Not one you have already been chatting in. Not the one
    that has been poking around inside this folder. A new, empty one. The reason is below, and
    it is your first lesson.
-3. **Copy the ignition prompt below, fill in the one blank, and paste it as your first
-   message.** That is the whole setup.
+3. **Copy the right prompt below, fill in the one blank, and paste it as your first
+   message.** There are three, and the next section tells you in one line which is yours.
+   That is the whole setup.
+
+---
+
+## Which prompt is yours
+
+There are three, and only one of them is for you today:
+
+- **First time here, nothing in `progress/` yet** — the ignition prompt, under "The ignition
+  prompt". Most people.
+- **You have run sessions here before and the record is yours** — the returning prompt, under
+  "The returning prompt".
+- **Someone handed you this folder and there is already progress in it that is not yours** — the
+  third prompt, under "If the progress folder is not yours". Check this one before you assume it
+  is not you: if you were given this folder rather than downloading it yourself, open `progress/`
+  and look before you paste anything.
+
+One short section on which model to use comes first, then the three prompts in that order.
 
 ---
 
@@ -80,17 +98,6 @@ question above rather than taking those names on trust, and for any other assist
 question and map its answer onto the same three tiers. The full version
 of this is [`curriculum/09-cost-models-and-effort.md`](curriculum/09-cost-models-and-effort.md) —
 you do not need it to start.
-
----
-
-## Which prompt is yours
-
-There are three, and only one of them is for you today:
-
-- **First time here, nothing in `progress/` yet** — the ignition prompt, immediately below.
-- **You have run sessions here before and the record is yours** — the returning prompt, after it.
-- **Someone handed you this folder and there is already progress in it that is not yours** — the
-  third prompt, under "If the progress folder is not yours".
 
 ---
 
